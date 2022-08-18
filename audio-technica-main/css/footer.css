@@ -1,0 +1,68 @@
+
+footer {
+  background-color: #eee;
+  padding: 0px;
+}
+
+
+/* 푸터메뉴 */
+.footer-gnb {
+  font-size: 11px;
+  padding: 5px 40px;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: scroll;
+}
+
+.footer-gnb li {
+  display: inline-block;
+}
+
+.footer-gnb a {
+  color: #333;
+  padding: 5px 10px;
+}
+
+.footer-gnb .footer-nav::after {
+  content: "|";
+  color: #333;
+}
+
+.footer-gnb .footer-nav:last-child::after {
+  content: "";
+}
+
+
+/* info */
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column;
+  padding: 5px 20px;
+}
+
+/* article */
+
+.info article{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.info article p{
+  font-size: 13px;
+  text-align: left;
+  text-align: center;
+}
+
+.info .cs{
+  display: flex;
+  justify-content: center;
+}
+.info .cs h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
